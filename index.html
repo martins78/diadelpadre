@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡DIA DEL PADRE! 💕</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Cormorant+Garamond:wght@300;400;600&family=Dancing+Script:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Corazones flotantes -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <!-- Header -->
+    <header>
+        <h1>¡Feliz dia del padre¡</h1>
+        <p class="subtitle">Un día especial para una persona especial Feliz dia del padre </p>
+    </header>
+
+    <!-- Contenedor principal -->
+    <div class="container">
+        <!-- Carrusel de fotos -->
+        <div class="carousel-section">
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <!-- Slide 1 -->
+                    <div class="carousel-slide">
+                        <img src="https://i.pinimg.com/736x/c9/22/ff/c922ff161e69a142486ed3dd35c3b27a.jpg"
+                            alt="Momento especial 1" class="carousel-image">
+                        <div class="carousel-message">
+                            "Cada momento a tu lado es un regalo de dios"
+                        </div>
+                    </div>
+                    <!-- Slide 2 -->
+                    <div class="carousel-slide">
+                        <img src="https://i.pinimg.com/1200x/0a/93/80/0a93807cd4ed19345ea53f3fcc70b312.jpg"
+                            alt="Momento especial 2" class="carousel-image">
+                        <div class="carousel-message">
+                            "Tu ser es algo muy especial"
+                        </div>
+                    </div>
+                    <!-- Slide 3 -->
+                    <div class="carousel-slide">
+                        <img src="https://i.pinimg.com/736x/67/33/db/6733db4504e99fc93201b450d2c1bbcb.jpg"
+                            alt="Momento especial 3" class="carousel-image">
+                        <div class="carousel-message">
+                            "Eres la razón por la que sigo en pie"
+                        </div>
+                    </div>
+                    <!-- Slide 4 -->
+                    <div class="carousel-slide">
+                        <img src="https://i.pinimg.com/736x/9c/16/cc/9c16cc50a45992ab477f461891156a42.jpg"
+                            alt="Momento especial 4" class="carousel-image">
+                        <div class="carousel-message">
+                            "Contigo, cada día es una nueva vida de felicidad"
+                        </div>
+                    </div>
+                    <!-- Slide 5 -->
+                    <div class="carousel-slide">
+                        <img src="https://i.pinimg.com/1200x/32/54/2f/32542f2d31be5ead766d53249a422efb.jpg"
+                            alt="Momento especial 5" class="carousel-image">
+                        <div class="carousel-message">
+                            "Gracias por ser mi compañero, mi papa, mi todo 💖"
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles del carrusel -->
+                <div class="carousel-controls">
+                    <button class="carousel-btn" id="prevBtn">‹</button>
+                    <button class="carousel-btn" id="nextBtn">›</button>
+                </div>
+            </div>
+
+            <!-- Indicadores -->
+            <div class="carousel-indicators" id="indicators"></div>
+        </div>
+
+        <!-- Mensajes adicionales -->
+        <div class="messages-section">
+            <div class="message-card">
+                <p>Los padres son como faros en la tormenta, siempre firmes para guiarnos cuando las olas golpean
+                    fuerte. Su luz nunca se apaga, incluso en los días más oscuros.
+                </p>
+            </div>
+            <div class="message-card">
+                <p>Recuerdo esas manos callosas que trabajaron sin descanso, esas mismas manos que me acariciaban la
+                    frente cuando era niño. Ese contraste define el amor de un padre.Me enseñaste a montar en bici, a
+                    atarme los cordones, pero sobre todo me mostraste con tu vida cómo ser buena persona. Esas lecciones
+                    no se olvidan.</p>
+            </div>
+            <div class="message-card">
+                <p>Muchas gracias, porque me has demostrado tu amor, levantándote temprano para llevarme al colegio,
+                    quedándote despierto cuando volvía tarde y preocupándote en silencio. Los héroes de verdad no vuelan
+                    ni tienen superpoderes. Los de verdad se desviven por su familia, se cansan, pero no se rinden, y
+                    dan todo sin esperar nada a cambio.</p>
+            </div>
+            <div class="message-card">
+                <p>Tuve la suerte de tener un padre presente, de esos que daba ejemplo con sus acciones, que no solo
+                    hablaban sino que también escuchaban.Cada arruga en tu rostro cuenta una historia de sacrificio,
+                    cada cana habla de noches en vela por nosotros. Y, aun así, siempre tienes fuerzas para sonreír.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="final-message">Con todo mi amor, hoy te deseo un feliz dia del padre</p>
+    </footer>
+
+    <!-- Control de audio -->
+    <div class="audio-control">
+        <button class="audio-btn" id="audioBtn">🎵</button>
+    </div>
+
+    <!-- Audio de fondo -->
+    <audio id="backgroundMusic" loop>
+        <source src="https://cdn.pixabay.com/audio/2022/05/27/audio_1808fbf07a.mp3" type="audio/mpeg">
+    </audio>
+</body>
+<script src="script.js"></script>
+
+</html>
